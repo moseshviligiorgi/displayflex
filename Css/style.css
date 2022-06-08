@@ -271,15 +271,13 @@ body {
 }
 .block1,
 .block2,
-.block3{
+.block3,
+.block4{
     width: 260px;
     margin-bottom: 20px;
     height: 155px;
 }
-.block4 {
-    width: 360px;
-    display: inline-block;
-}
+
 
 .h1-footer {
     margin-bottom: 20px;
