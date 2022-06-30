@@ -206,6 +206,7 @@ body {
         margin-top: 10px;
         font-weight: bold;
         margin-bottom: 30px;
+        font-family: 'Poppins';
     }
 .name {
     font-size: 18px;
@@ -267,6 +268,7 @@ body {
     position: relative;
     padding-top: 90px;
     padding-left: 139px;
+    z-index: 1;
 
 }
 .block1,
@@ -275,7 +277,7 @@ body {
 .block4{
     width: 260px;
     margin-bottom: 20px;
-    height: 155px;
+    height: 145px;
 }
 
 
@@ -297,21 +299,26 @@ body {
     margin-bottom: 10px;
     color: #5863F8;
 }
+
 .end {
     position: absolute;
+    color: white;
+    z-index: 2;
 }
 
-
-
-
-
-
-
-
-.end {
-    margin-top: 54px;
-    margin-left: 75px;
-    display: block;
-    color: black;
+.test {
+    font-family: 'Poppins';
 }
 
+/* twitter logo */
+
+.twitter {
+    position: relative;
+    z-index: 4;
+
+}
+
+.twitter-logo {
+    position: absolute;
+   
+}
